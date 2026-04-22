@@ -7,3 +7,4 @@ mycursor = conn.cursor()
 mycursor.execute("insert into employee (name, EmployeeID, Salary)values(%s,%s,%s)", ('Ryan', 'E006', 65000.00))
 conn.commit()
 
+
